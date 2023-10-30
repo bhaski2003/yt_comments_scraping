@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #192A56; /* Navy Blue Background */
+    color: #fff; /* Text Color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ip {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.but {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498DB; /* Blue Button */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: #2980B9; /* Darker Blue on Hover */
+}
+
+#comments {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Glass Morphism effect */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+#comments p {
+    margin: 5px 0;
+}
